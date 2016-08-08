@@ -1243,7 +1243,8 @@ html,body{
     width: 5%;
     height:50px;
     line-height:50px ;
-    animation: change 1s  ease-in  infinite ;
+    -webkit-animation: change 2s  ease-in  infinite ;
+    animation: change 2s  ease-in  infinite ;
 
 }
 
@@ -1255,7 +1256,8 @@ html,body{
     width: 5%;
     height:50px;
     line-height:50px ;
-    animation: change 1s  ease-in  infinite ;
+    -webkit-animation: change 2s  ease-in  infinite ;
+    animation: change 2s  ease-in  infinite ;
 
 }
 .a7 > p:nth-child(4) {
@@ -1265,7 +1267,8 @@ html,body{
     width: 5%;
     height:50px;
     line-height:50px ;
-    animation: change 1s  ease-in  infinite ;
+    -webkit-animation: change 2s  ease-in  infinite ;
+    animation: change 2s  ease-in  infinite ;
 
 }
 .a7 > p:nth-child(5) {
@@ -1275,19 +1278,20 @@ html,body{
     width: 5%;
     height:50px;
     line-height:50px ;
-    animation: change 1s  ease-in  infinite ;
+    -webkit-animation: change 2s  ease-in  infinite ;
+    animation: change 2s  ease-in  infinite ;
 
 }
 
 @-webkit-keyframes change {
-    0%{ text-shadow: 0 0 4px red}
-    50%{ text-shadow: 0 0 50px yellow}
-    100%{ text-shadow: 0 0 4px green}
+    0%{ text-shadow: 0 0 10px red}
+    50%{ text-shadow: 0 0 80px yellow}
+    100%{ text-shadow: 0 0 10px green}
 }
 @keyframes change {
-    0%{ text-shadow: 0 0 4px red}
-    50%{ text-shadow: 0 0 50px yellow}
-    100%{ text-shadow: 0 0 4px green}
+    0%{ text-shadow: 0 0 10px red}
+    50%{ text-shadow: 0 0 80px yellow}
+    100%{ text-shadow: 0 0 10px green}
 }
 .a7 p:nth-of-type(6){
     position: absolute;
