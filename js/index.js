@@ -72,7 +72,7 @@ if (winW / winH > desW / desH) {
             //把当前元素按照比例缩放  1- 是因为要从大到小缩放  translate 平移的距离
             oLis[cur].style.webkitTransform = "scale("+(1/*-scalePos*/)+") translate(0,"+changePos+"px)";
         }
-        function end(e) {  //手松开的时候
+        function end(e){  //手松开的时候
             oLis[this.preSIndex].style.webkitTransform ="translate(0,0)"; //平移结束
             oLis[this.preSIndex].style.webkitTransition="2s";  //动画的时间
             //addEventListener添加DOM二级事件 webkitTransitionEnd 动画结束
@@ -81,7 +81,6 @@ if (winW / winH > desW / desH) {
                 this.firstElementChild.id = "a"+(this.index+1);
             },false);
         }
-
 
     },false);
 
@@ -112,8 +111,5 @@ window.addEventListener("load", function () {
         }
     });
 }, false);
-document.addEventListener('touchmove',function(){
-
-},false);
 
 
