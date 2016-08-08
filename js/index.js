@@ -76,7 +76,7 @@ if (winW / winH > desW / desH) {
             //addEventListener添加DOM二级事件 webkitTransitionEnd 动画结束
             oLis[this.preSIndex].addEventListener('webkitTransitionEnd',function(){
                 this.style.webkitTransition="";
-                this.firstElementChild.id = "a"+(this.index);
+                this.firstElementChild.id = "a"+(this.index+1);
             },false);
         }
     },false);
